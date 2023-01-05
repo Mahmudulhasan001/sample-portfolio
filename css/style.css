@@ -95,7 +95,9 @@ main {
     text-align: center;
 }
 
-.section-titel {
+.section-title {
+
+    text-align: center;
     color: #181818;
     font-size: 35px;
 
@@ -114,7 +116,7 @@ main {
 }
 
 .info-title {
-    ont-size: 20px;
+    font-size: 20px;
     color: #757575;
 
 }
@@ -124,4 +126,71 @@ main {
     font-size: 20px;
     color: #474747;
 
+}
+/* What i do style */
+.What-i-do{
+    margin-top: 130px;
+}
+.skil{
+    background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px;
+}
+
+.skil-container{
+    display: flex;
+    gap: 24px;
+}
+.skil-title{
+    font-weight: 700;
+font-size: 20px;
+color: #181818;
+margin-top: 20px;
+margin-bottom: 30px;
+
+}
+.skill-description{
+    font-weight: 400;
+font-size: 16px;
+color: #757575;
+
+}
+/* resume start  */
+.section-rusume{
+    margin-top: 130px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume .title{
+    font-weight: 700;
+font-size: 25px;
+color: #474747;
+margin-bottom: 10px;
+    
+}
+
+.resume .sub-title{
+    font-weight: 600;
+font-size: 20px;
+color: #757575;
+margin-bottom: 20px;
+
+}
+.resume .description{
+    font-weight: 400;
+font-size: 16px;
+color: #757575;
+
+}
+.dowload-button{
+    text-align: center;
 }
